@@ -1,11 +1,11 @@
 .wrapper {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 2.6rem;
 }
 
 @media (max-width: 980px) {
   .wrapper {
-    gap: 1.6rem;
+    display: none;
   }
 }

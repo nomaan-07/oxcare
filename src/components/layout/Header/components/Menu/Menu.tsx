@@ -2,7 +2,7 @@ import styles from "./Menu.module.css";
 
 const items = [
   {
-    name: "Home",
+    name: "home",
     link: "#home",
   },
   {
