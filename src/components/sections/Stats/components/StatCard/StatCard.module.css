@@ -1,0 +1,44 @@
+.card {
+  color: #fff;
+  height: 18.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+.title {
+  font-weight: 700;
+  font-size: 6.4rem;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.primary {
+  background-color: var(--color-primary);
+}
+.secondary {
+  background-color: var(--color-secondary);
+}
+
+@media (max-width: 980px) {
+  .card {
+    height: 16rem;
+  }
+
+  .title {
+    font-size: 5.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 12rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+}

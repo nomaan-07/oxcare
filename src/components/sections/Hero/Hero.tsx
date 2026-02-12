@@ -24,9 +24,7 @@ export function Hero() {
               </Button>
             </ButtonsWrapper>
           </div>
-          <div>
-            <img className={styles.image} src={heroImage} alt="Hero" />
-          </div>
+          <img className={styles.image} src={heroImage} alt="Hero" />
         </div>
       </Container>
     </div>

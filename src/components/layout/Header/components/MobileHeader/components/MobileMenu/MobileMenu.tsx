@@ -12,10 +12,7 @@ interface MobileMenuProps {
 export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <>
-      <div
-        className={`${styles.wrapper} ${isOpen ? styles.open : ""}`}
-        onClick={onClose}
-      >
+      <div className={`${styles.wrapper} ${isOpen ? styles.open : ""}`}>
         <header className={styles.header}>
           <Logo />
           <div className={styles.icon} onClick={onClose}>
