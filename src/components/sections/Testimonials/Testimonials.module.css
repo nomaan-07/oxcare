@@ -1,0 +1,32 @@
+.wrapper {
+  position: relative;
+}
+
+.card {
+  padding: 5rem 6rem;
+  border-radius: 1rem;
+  max-width: 77rem;
+  margin: 0 auto;
+}
+
+.comment {
+  color: var(--color-description);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .card {
+    padding: 3.6rem;
+  }
+}
+@media (max-width: 520px) {
+  .card {
+    padding: 2.6rem;
+  }
+}

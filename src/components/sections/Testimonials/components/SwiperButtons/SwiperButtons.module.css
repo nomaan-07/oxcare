@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.navBtn {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  border: 1px solid #2e2e2e;
+  background: white;
+  cursor: pointer;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+
+  &:hover {
+    color: #fff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+}
+
+.prevBtn {
+  left: 0;
+}
+.nextBtn {
+  right: 0;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+@media (max-width: 1040px) {
+  .navBtn {
+    position: static;
+    cursor: default;
+
+    &:hover {
+      color: inherit;
+      background-color: #fff;
+      border-color: #2e2e2e;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navBtn {
+    width: 6rem;
+    height: 6rem;
+  }
+}
