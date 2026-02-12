@@ -51,7 +51,7 @@ const services = [
 
 export function Services() {
   return (
-    <>
+    <section>
       <SectionHeader
         title="our services"
         description="Comprehensive care, compassionate support, and proven treatments. all designed to help you feel your best."
@@ -63,6 +63,6 @@ export function Services() {
           ))}
         </div>
       </Container>
-    </>
+    </section>
   );
 }

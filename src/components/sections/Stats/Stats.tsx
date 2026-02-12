@@ -12,12 +12,14 @@ const stats: Stat[] = [
 
 export function Stats() {
   return (
-    <Container>
-      <div className={styles.wrapper}>
-        {stats.map((stat) => (
-          <StatCard key={stat.id} {...stat}></StatCard>
-        ))}
-      </div>
-    </Container>
+    <section>
+      <Container>
+        <div className={styles.wrapper}>
+          {stats.map((stat) => (
+            <StatCard key={stat.id} {...stat}></StatCard>
+          ))}
+        </div>
+      </Container>
+    </section>
   );
 }
