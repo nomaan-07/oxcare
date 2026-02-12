@@ -6,6 +6,8 @@
   --font-primary: "Anek Telugu", sans-serif;
   --color-primary: #2dcf57;
   --color-secondary: #242424;
+  --background-primary: #fff;
+  --background-secondary: #eafff0;
 }
 
 html {
@@ -14,7 +16,7 @@ html {
 
 body {
   font-family: var(--font-primary);
-  background-color: #fff;
+  background-color: var(--background-primary);
   font-size: 1.6rem;
   color: var(--color-secondary);
 }

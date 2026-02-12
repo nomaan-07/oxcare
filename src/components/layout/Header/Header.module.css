@@ -1,7 +1,6 @@
 .header {
-  margin-top: 4rem;
-  background-color: #eafff0;
+  background-color: var(--background-secondary);
   position: sticky;
   top: 0;
-  padding: 1rem 0;
+  padding: 1.6rem 0;
 }
