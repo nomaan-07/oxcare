@@ -6,7 +6,7 @@ type StatCardProps = Stat;
 export function StatCard({ title, description, variant }: StatCardProps) {
   return (
     <div className={`${styles.card} ${styles[variant]}`}>
-      <h3 className={styles.title}>{title}</h3>
+      <h4 className={styles.title}>{title}</h4>
       <p className={styles.description}>{description}</p>
     </div>
   );

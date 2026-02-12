@@ -6,6 +6,7 @@
   --font-primary: "Anek Telugu", sans-serif;
   --color-primary: #2dcf57;
   --color-secondary: #242424;
+  --color-description: #5a5a5a;
   --background-primary: #fff;
   --background-secondary: #eafff0;
 }
@@ -19,4 +20,11 @@ body {
   background-color: var(--background-primary);
   font-size: 1.6rem;
   color: var(--color-secondary);
+}
+
+.gradient-border {
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.12) 0%, #707070 100%) border-box;
+  border: 1px solid transparent;
 }
