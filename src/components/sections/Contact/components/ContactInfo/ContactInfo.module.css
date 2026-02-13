@@ -1,0 +1,60 @@
+.wrapper {
+  max-width: 47rem;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 4.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.description {
+  line-height: 1.2;
+  margin-bottom: 5.6rem;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+
+.avatarsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 5.8rem;
+  height: 5.8rem;
+  border-radius: 100%;
+  margin-left: -2.9rem;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.statusText {
+  max-width: 18rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 680px) {
+  .subtitle {
+    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+    max-width: 48rem;
+  }
+
+  .description {
+    line-height: 1.2;
+    margin-bottom: 3rem;
+  }
+}
