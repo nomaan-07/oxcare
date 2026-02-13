@@ -1,0 +1,54 @@
+.footer {
+  background-color: var(--background-secondary);
+  padding-top: 8.6rem;
+  padding-bottom: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.description {
+  line-height: 1.2;
+  max-width: 31.5rem;
+}
+
+.locationText {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.bottomBar {
+  margin-top: 7rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid var(--color-description);
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .footer {
+    padding-top: 6rem;
+  }
+
+  .bottomBar {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer {
+    padding-top: 4rem;
+  }
+
+  .locationText {
+    font-size: 1.8rem;
+  }
+
+  .description,
+  .bottomBar {
+    font-size: 1.4rem;
+  }
+}

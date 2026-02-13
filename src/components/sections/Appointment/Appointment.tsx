@@ -6,7 +6,7 @@ export function Appointment() {
   return (
     <section>
       <Container>
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} section`}>
           <h3 className={styles.title}>Need a doctor&apos;s counseling?</h3>
           <p className={styles.description}>
             Just make an appointment and motivated

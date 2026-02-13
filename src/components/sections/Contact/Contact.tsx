@@ -7,7 +7,7 @@ export function Contact() {
   return (
     <section>
       <Container>
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} section`}>
           <ContactInfo />
           <Form />
         </div>
