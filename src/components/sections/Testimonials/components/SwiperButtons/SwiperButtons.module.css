@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 3rem;
 }
 
 .navBtn {
@@ -18,7 +17,7 @@
     border-color 150ms ease;
   position: absolute;
   top: 50%;
-  z-index: 100;
+  z-index: 50;
 
   &:hover {
     color: #fff;
@@ -40,6 +39,10 @@
 }
 
 @media (max-width: 1040px) {
+  .wrapper {
+    margin-top: 3rem;
+  }
+
   .navBtn {
     position: static;
     cursor: default;

@@ -24,6 +24,7 @@
 
 .description {
   color: var(--color-description);
+  line-height: 1.2;
 }
 
 @media (max-width: 680px) {
